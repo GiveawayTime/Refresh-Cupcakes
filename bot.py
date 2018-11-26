@@ -33,4 +33,4 @@ async def on_message(message):
         if word.upper() in chat_filter:
             await client.delete_message(message)
         
-client.run("NTA5Nzk2NzI1MDc1MjE0Mzcz.DsTNlg.CsA0NN2q7ZW4sZySAL636JgeZ2Q")
+client.run(os.environ["BOT_TOKEN"])
